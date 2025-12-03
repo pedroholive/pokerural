@@ -1,3 +1,5 @@
+from idlelib.configdialog import changes
+
 from settings import *
 import pygame
 import sys

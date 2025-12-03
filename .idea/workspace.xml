@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4666e56-42d2-48f3-98ce-a6ce8cb31e5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/code (start)/assets/fonte.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code (start)/assets/tela_titulo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code (start)/menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code (start)/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code (start)/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,15 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DAVI/Documents/GitHub/pokerural/code (start)/assets&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/DAVI/Documents/GitHub/pokerural/code (start)/assets"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DAVI\Documents\GitHub\pokerural\code (start)\assets" />
