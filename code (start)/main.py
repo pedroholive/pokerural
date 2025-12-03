@@ -1,11 +1,53 @@
 from settings import *
 import pygame
+import sys
 from pytmx.util_pygame import load_pygame
 from os.path import join
+<<<<<<< Updated upstream
 from sprite import Sprite, AnimatedSprite, MonsterPatchSprite
 from entities import Player, Character
 from groups import AllSprites
 from support import * 
+=======
+from sprite import Sprite
+from entities import Player
+from menu import TelaTitulo
+
+pygame.init()
+
+# Configurações da Janela
+LARGURA = 1280
+ALTURA = 720
+tela = pygame.display.set_mode((LARGURA, ALTURA))
+pygame.display.set_caption("PokeRural - UFRPE Edition")
+clock = pygame.time.Clock()
+
+# --- PARTE 1: O MENU ---
+print("Iniciando o Menu...")
+menu_inicial = TelaTitulo(tela)  # Cria o menu
+menu_inicial.run()  # Roda o menu (o código fica preso aqui até apertar tecla)
+
+# --- PARTE 2: O JOGO (Isso acontece depois que aperta tecla) ---
+print("O jogo começou!")
+
+jogo_rodando = True
+while jogo_rodando:
+    # 1. Eventos do Jogo
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            jogo_rodando = False
+            pygame.quit()
+            sys.exit()
+
+    # 2. Desenho do Jogo (Tela Azul Provisória)
+    tela.fill("blue")  # Pinta de azul pra você saber que saiu do menu
+
+    # (Aqui viria o seu mapa, personagem, etc)
+
+    pygame.display.update()
+    clock.tick(60)  # Mantém 60 FPS
+
+>>>>>>> Stashed changes
 class Game:
     def __init__(self):
         pygame.init()
