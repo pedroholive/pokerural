@@ -3,6 +3,7 @@
  <tileset firstgid="1" source="../tilesets/world.tsx"/>
  <tileset firstgid="211" source="../tilesets/objects.tsx"/>
  <tileset firstgid="242" source="../tilesets/Grass.tsx"/>
+<<<<<<< HEAD
  <tileset firstgid="245" name="3" tilewidth="64" tileheight="64" tilecount="1" columns="1">
   <image source="../../graphics/tilesets/water/3.png" width="64" height="64"/>
  </tileset>
@@ -39,6 +40,41 @@
 72,72,72,72,72,72,41,72,72,72,72,42,42,42,42,42,0,0,0,0,0,0,72,4,26,72,72,72,72,72,72,294,251,0,0,0,0,0,0,0,273,72,72,72,72,136,15,15,42,31,56,42,42,42,42,42,43,42,42,42,42,44,42,42,42,42,42,42,42,42,42,42,44,45,31,56,43,42,42,42,42,42,42,42,42,42,
 72,72,72,72,72,72,41,72,72,72,72,42,42,42,42,0,0,0,0,0,0,0,72,14,72,72,72,72,72,42,72,72,294,251,0,0,0,0,0,0,273,72,72,72,72,136,15,15,42,41,42,42,42,42,42,42,60,42,42,42,42,44,42,42,42,42,42,42,42,42,42,42,54,55,56,42,43,42,42,42,42,42,42,42,42,42,
 72,72,72,72,72,72,41,72,72,42,42,42,42,0,0,0,0,0,0,0,0,0,4,26,72,72,72,72,72,72,72,72,72,294,250,250,251,249,250,250,296,72,72,72,72,136,15,15,42,41,42,42,42,42,42,42,43,42,42,42,42,54,33,42,42,34,35,52,36,42,42,42,42,34,35,36,43,42,42,42,42,42,42,42,42,42,
+=======
+ <tileset firstgid="245" name="coast" tilewidth="64" tileheight="64" tilecount="288" columns="24">
+  <image source="../../../../Downloads/coast.png" width="1536" height="768"/>
+ </tileset>
+ <layer id="1" name="Terrain" width="86" height="86">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,271,42,42,16,72,72,72,16,15,15,15,43,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,271,42,42,42,6,72,72,16,15,15,15,54,33,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,271,42,42,42,16,72,72,72,6,15,15,42,43,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,271,42,42,42,42,6,72,72,72,6,15,15,54,33,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,226,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,271,42,42,42,42,42,16,72,72,16,15,15,42,54,32,32,33,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,0,248,249,249,249,250,0,0,0,248,249,250,0,0,0,0,0,0,0,0,0,0,271,42,42,42,42,42,16,6,72,72,6,15,15,42,42,42,54,32,32,32,32,33,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,248,295,72,72,72,437,438,438,438,438,72,293,250,0,0,0,0,0,0,0,0,0,271,42,42,42,42,42,42,42,6,72,72,6,15,15,42,42,42,42,42,42,42,54,32,32,32,32,32,32,32,32,33,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,343,72,72,72,72,72,72,72,72,72,72,72,274,0,0,0,0,0,0,0,0,0,271,42,42,42,42,42,42,42,42,6,72,72,6,15,15,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,54,32,32,32,32,32,32,32,33,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,343,72,72,15,192,192,192,192,192,72,72,15,293,250,0,0,0,0,0,0,0,0,271,42,42,42,42,42,42,42,42,42,6,72,72,6,15,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,54,32,32,32,32,33,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,343,72,72,15,192,192,192,192,192,72,72,72,72,274,0,0,0,0,0,0,0,248,295,42,42,42,42,42,42,42,42,42,42,6,72,16,15,15,15,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,54,32,33,42,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,296,247,72,15,192,192,192,192,192,72,72,72,72,274,0,0,0,0,0,0,0,271,42,42,42,42,42,42,42,42,42,42,42,42,16,72,5,6,15,15,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,54,33,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,0,271,72,15,192,192,192,192,192,72,72,72,245,442,0,0,0,0,0,0,0,271,72,72,72,72,72,72,72,72,72,72,72,72,16,72,72,72,6,15,15,15,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,43,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,0,271,15,15,192,192,192,192,192,72,72,72,274,0,0,0,0,0,248,294,294,295,72,72,72,72,72,72,72,72,72,72,72,72,16,72,72,72,72,6,15,15,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,43,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,0,271,72,72,72,72,72,72,72,72,72,72,274,0,0,0,0,248,295,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,136,72,72,72,72,72,6,15,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,43,42,42,42,42,42,42,42,42,42,42,42,42,
+0,0,0,0,0,0,296,247,72,72,72,72,72,72,72,72,245,298,0,248,294,294,295,72,72,72,72,72,72,72,4,25,25,25,178,25,25,25,25,26,72,72,72,72,72,14,15,15,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,54,33,42,42,42,42,42,42,42,42,42,42,42,
+249,250,0,0,0,0,0,296,247,72,72,72,72,72,72,72,274,0,248,295,72,72,72,72,72,72,72,72,72,72,136,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,6,15,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,54,33,42,42,42,42,42,42,42,42,42,42,
+72,365,250,0,0,0,0,0,296,247,72,72,245,297,297,297,298,248,295,72,72,72,72,72,72,72,72,72,72,4,26,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,136,15,15,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,43,42,42,42,42,42,42,42,42,42,42,
+72,72,269,0,0,0,0,0,0,272,72,72,269,0,0,0,248,295,72,72,72,72,72,72,72,72,72,72,72,14,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,15,6,15,42,42,42,42,42,31,32,33,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,43,42,42,42,42,42,42,42,42,42,42,
+72,72,293,249,249,250,0,0,0,272,72,72,293,294,294,294,295,72,72,72,72,72,72,72,72,72,72,72,4,26,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,15,136,15,42,42,42,42,31,56,42,43,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,54,33,42,42,42,42,42,42,42,42,42,
+72,72,72,72,72,293,250,0,0,272,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,14,72,72,72,245,297,297,297,297,297,297,247,72,72,72,72,72,72,14,26,15,42,42,42,31,56,42,42,54,33,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,43,42,42,42,42,42,42,42,42,42,
+72,72,72,72,72,72,293,249,249,295,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,4,26,72,72,72,274,0,0,0,0,0,0,296,247,72,72,72,72,72,136,15,15,42,42,42,41,42,42,42,42,43,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,43,42,42,42,42,42,42,42,42,42,
+52,36,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,0,72,72,72,42,4,26,42,72,72,72,274,0,0,0,0,0,0,0,272,72,72,72,72,72,136,15,15,42,42,31,56,42,42,42,42,43,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,43,42,42,42,42,42,42,42,42,42,
+72,51,52,36,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,0,0,72,72,72,42,14,72,72,72,72,72,274,0,0,0,0,0,0,0,272,72,72,15,15,14,26,15,15,42,31,56,42,42,42,42,42,43,42,42,40,42,42,42,42,42,42,42,42,42,42,42,42,42,42,42,43,42,42,42,42,42,42,42,42,42,
+72,72,72,51,52,36,72,72,72,72,72,72,72,72,72,72,72,72,0,0,0,0,72,72,72,4,26,72,72,72,72,245,298,0,0,0,0,0,0,0,272,72,72,72,72,136,15,15,15,42,41,42,42,42,42,42,34,53,42,42,54,33,42,42,42,42,42,42,42,42,42,42,42,34,35,36,43,42,42,42,42,42,42,42,42,42,
+72,72,72,72,72,51,36,72,72,72,72,72,72,72,72,42,42,0,0,0,0,0,72,72,4,26,72,72,72,72,72,274,0,0,0,0,0,0,0,0,272,72,72,72,72,136,15,42,42,42,41,42,42,42,42,42,43,42,42,42,42,44,42,42,42,42,42,42,42,42,42,42,34,53,42,46,43,42,42,42,42,42,42,42,42,42,
+72,72,72,72,72,72,41,72,72,72,72,42,42,42,42,42,0,0,0,0,0,0,72,4,26,72,72,72,72,72,72,293,250,0,0,0,0,0,0,0,272,72,72,72,72,136,15,15,42,31,56,42,42,42,42,42,43,42,42,42,42,44,42,42,42,42,42,42,42,42,42,42,44,45,31,56,43,42,42,42,42,42,42,42,42,42,
+72,72,72,72,72,72,41,72,72,72,72,42,42,42,42,0,0,0,0,0,0,0,72,14,72,72,72,72,72,42,72,72,293,250,0,0,0,0,0,0,272,72,72,72,72,136,15,15,42,41,42,42,42,42,42,42,60,42,42,42,42,44,42,42,42,42,42,42,42,42,42,42,54,55,56,42,43,42,42,42,42,42,42,42,42,42,
+72,72,72,72,72,72,41,72,72,42,42,42,42,0,0,0,0,0,0,0,0,0,4,26,72,72,72,72,72,72,72,72,72,293,249,249,250,248,249,249,295,72,72,72,72,136,15,15,42,41,42,42,42,42,42,42,43,42,42,42,42,54,33,42,42,34,35,52,36,42,42,42,42,34,35,36,43,42,42,42,42,42,42,42,42,42,
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
 72,72,72,72,72,72,41,72,72,42,42,42,0,0,0,0,0,0,0,0,0,0,14,72,72,72,72,72,72,72,72,72,72,72,72,42,42,42,72,72,72,72,72,72,72,136,15,15,42,41,42,42,42,42,42,42,43,42,42,42,42,42,44,42,42,44,45,45,51,36,42,42,42,44,45,46,43,42,42,42,42,42,42,42,42,42,
 72,72,72,72,72,72,41,72,72,42,42,42,0,0,0,0,0,0,0,42,42,4,26,72,72,192,192,192,192,192,192,72,72,72,72,72,72,72,72,72,72,72,72,72,72,136,15,15,42,41,42,42,42,42,42,34,53,42,42,42,42,42,60,42,42,54,33,42,42,46,42,42,34,53,31,56,43,42,42,42,42,42,42,42,42,42,
 72,72,72,72,72,72,41,72,72,42,42,42,0,0,0,0,42,0,42,42,72,14,72,72,72,192,192,192,192,192,192,72,72,72,72,72,72,72,72,72,72,72,72,72,72,136,15,42,42,51,52,52,52,52,52,53,42,42,42,42,42,42,44,42,42,42,44,45,31,56,42,42,44,42,41,34,53,42,42,42,42,42,42,42,42,42,
@@ -99,7 +135,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+<<<<<<< HEAD
  <layer id="13" name="Terrain Top" width="86" height="86" visible="0">
+=======
+ <layer id="13" name="Terrain Top" width="86" height="86">
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1942,2804 +1982,4408 @@
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="35" gid="242" x="4032" y="4096" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="36" gid="242" x="3968" y="4096" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="37" gid="242" x="3968" y="4160" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="38" gid="242" x="4032" y="4160" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="39" gid="242" x="4096" y="4160" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="215" gid="242" x="2624" y="3520" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="216" gid="242" x="2688" y="3520" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="217" gid="242" x="2624" y="3456" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="218" gid="242" x="2560" y="3456" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="219" gid="242" x="2560" y="3520" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="220" gid="242" x="2688" y="3584" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="221" gid="242" x="2624" y="3584" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="222" gid="242" x="2752" y="3584" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="223" gid="242" x="2752" y="3648" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="224" gid="242" x="2816" y="3648" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="225" gid="242" x="2816" y="3712" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="226" gid="242" x="2880" y="3776" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="227" gid="242" x="2880" y="3712" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="228" gid="242" x="2496" y="3456" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="229" gid="242" x="2496" y="3392" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="230" gid="242" x="2432" y="3392" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="231" gid="242" x="2432" y="3456" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="232" gid="242" x="2496" y="3520" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="233" gid="242" x="2368" y="3392" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="234" gid="242" x="2368" y="3328" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="356" gid="242" x="2944" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="357" gid="242" x="3008" y="2816" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="358" gid="242" x="3008" y="2752" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="359" gid="242" x="2944" y="2752" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="360" gid="242" x="2880" y="2880" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="361" gid="242" x="2880" y="2816" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="362" gid="242" x="2944" y="2816" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="363" gid="242" x="3008" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="364" gid="242" x="3008" y="2880" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="365" gid="242" x="2944" y="2880" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="366" gid="242" x="2880" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="367" gid="242" x="2816" y="2816" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="480" gid="242" x="3584" y="2816" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="481" gid="242" x="3648" y="2816" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="482" gid="242" x="3712" y="2816" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="483" gid="242" x="3584" y="2880" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="484" gid="242" x="3648" y="2880" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="485" gid="242" x="3712" y="2880" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="486" gid="242" x="3584" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="487" gid="242" x="3648" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="488" gid="242" x="3712" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="489" gid="242" x="3776" y="2880" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="490" gid="242" x="3840" y="2880" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="491" gid="242" x="3904" y="2880" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="492" gid="242" x="3776" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="493" gid="242" x="3840" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="494" gid="242" x="3904" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="495" gid="242" x="3776" y="3008" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="496" gid="242" x="3840" y="3008" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="497" gid="242" x="3904" y="3008" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="498" gid="242" x="3968" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="499" gid="242" x="4032" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="500" gid="242" x="4096" y="2944" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="501" gid="242" x="3968" y="3008" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="502" gid="242" x="4032" y="3008" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="503" gid="242" x="4096" y="3008" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="504" gid="242" x="3968" y="3072" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="505" gid="242" x="4032" y="3072" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="506" gid="242" x="4096" y="3072" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="507" gid="242" x="3968" y="2880" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="508" gid="242" x="4032" y="2880" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="540" gid="242" x="3456" y="3392" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="541" gid="242" x="3520" y="3392" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="542" gid="242" x="3584" y="3392" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="543" gid="242" x="3456" y="3456" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="544" gid="242" x="3520" y="3456" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="545" gid="242" x="3584" y="3456" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="546" gid="242" x="3456" y="3520" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="547" gid="242" x="3520" y="3520" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="548" gid="242" x="3584" y="3520" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="549" gid="242" x="3456" y="3200" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="550" gid="242" x="3520" y="3200" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="551" gid="242" x="3584" y="3200" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="552" gid="242" x="3456" y="3264" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="553" gid="242" x="3520" y="3264" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="554" gid="242" x="3584" y="3264" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="555" gid="242" x="3456" y="3328" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="556" gid="242" x="3520" y="3328" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="557" gid="242" x="3584" y="3328" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="558" gid="242" x="3648" y="3392" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="561" gid="242" x="3648" y="3456" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="564" gid="242" x="3648" y="3520" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="567" gid="242" x="3648" y="3200" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="568" gid="242" x="3712" y="3200" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="569" gid="242" x="3776" y="3200" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu, jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="570" gid="242" x="3648" y="3264" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="571" gid="242" x="3712" y="3264" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="572" gid="242" x="3776" y="3264" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu, jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="573" gid="242" x="3648" y="3328" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="574" gid="242" x="3712" y="3328" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="575" gid="242" x="3776" y="3328" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="611" gid="242" x="4288" y="4096" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="612" gid="242" x="4224" y="4096" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="613" gid="242" x="4160" y="4096" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="614" gid="242" x="4160" y="4160" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="615" gid="242" x="4224" y="4160" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="616" gid="242" x="4288" y="4160" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="617" gid="242" x="4480" y="4096" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="618" gid="242" x="4416" y="4096" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="619" gid="242" x="4352" y="4096" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="620" gid="242" x="4352" y="4160" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="621" gid="242" x="4416" y="4160" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="622" gid="242" x="4480" y="4160" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="623" gid="242" x="4288" y="4032" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="624" gid="242" x="4480" y="4032" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="625" gid="242" x="4416" y="4032" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="626" gid="242" x="4352" y="4032" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="751" gid="242" x="3456" y="1344" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1745" gid="242" x="832" y="1792" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1771" gid="242" x="962" y="1536" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="752" gid="242" x="3520" y="1344" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1744" gid="242" x="896" y="1792" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1772" gid="242" x="1026" y="1536" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1637" gid="242" x="1792" y="320" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1665" gid="242" x="1792" y="64" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1643" gid="242" x="1856" y="320" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1669" gid="242" x="1856" y="64" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1649" gid="242" x="1920" y="320" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1672" gid="242" x="1920" y="128" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1655" gid="242" x="1984" y="320" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1673" gid="242" x="1984" y="256" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1661" gid="242" x="2048" y="320" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="753" gid="242" x="3584" y="1344" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1743" gid="242" x="960" y="1792" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1773" gid="242" x="1090" y="1536" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="754" gid="242" x="3456" y="1408" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1742" gid="242" x="832" y="1856" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1767" gid="242" x="962" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="755" gid="242" x="3520" y="1408" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1741" gid="242" x="896" y="1856" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1768" gid="242" x="1026" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1636" gid="242" x="1792" y="384" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1664" gid="242" x="1792" y="128" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1642" gid="242" x="1856" y="384" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1668" gid="242" x="1856" y="128" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1648" gid="242" x="1920" y="384" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1671" gid="242" x="1920" y="192" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1654" gid="242" x="1984" y="384" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1660" gid="242" x="2048" y="384" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="756" gid="242" x="3584" y="1408" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1740" gid="242" x="960" y="1856" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1769" gid="242" x="1090" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="757" gid="242" x="3456" y="1472" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1738" gid="242" x="832" y="1920" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1762" gid="242" x="962" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="758" gid="242" x="3520" y="1472" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1737" gid="242" x="896" y="1920" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1763" gid="242" x="1026" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1635" gid="242" x="1792" y="448" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1663" gid="242" x="1792" y="192" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1641" gid="242" x="1856" y="448" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1667" gid="242" x="1856" y="192" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1647" gid="242" x="1920" y="448" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1670" gid="242" x="1920" y="256" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1653" gid="242" x="1984" y="448" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1695" gid="242" x="2112" y="448" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1659" gid="242" x="2048" y="448" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1694" gid="242" x="2176" y="448" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="759" gid="242" x="3584" y="1472" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1736" gid="242" x="960" y="1920" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1764" gid="242" x="1090" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="760" gid="242" x="3392" y="1408" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1739" gid="242" x="768" y="1856" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1770" gid="242" x="898" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="761" gid="242" x="3392" y="1472" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1735" gid="242" x="768" y="1920" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1765" gid="242" x="898" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="762" gid="242" x="3392" y="1536" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1733" gid="242" x="768" y="1984" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1758" gid="242" x="898" y="1728" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1754" gid="242" x="768" y="2176" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="763" gid="242" x="3328" y="1472" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1734" gid="242" x="704" y="1920" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1766" gid="242" x="834" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="764" gid="242" x="3328" y="1536" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1732" gid="242" x="704" y="1984" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1759" gid="242" x="834" y="1728" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1755" gid="242" x="704" y="2176" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="765" gid="242" x="3328" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1729" gid="242" x="704" y="2048" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1750" gid="242" x="704" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="766" gid="242" x="3456" y="1536" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1731" gid="242" x="832" y="1984" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1760" gid="242" x="962" y="1728" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1756" gid="242" x="832" y="2176" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1778" gid="242" x="960" y="2176" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="767" gid="242" x="3520" y="1536" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1730" gid="242" x="896" y="1984" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1761" gid="242" x="1026" y="1728" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1757" gid="242" x="896" y="2176" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1779" gid="242" x="1024" y="2176" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1634" gid="242" x="1792" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1721" gid="242" x="1792" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1662" gid="242" x="1792" y="256" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1640" gid="242" x="1856" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1720" gid="242" x="1856" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1666" gid="242" x="1856" y="256" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1646" gid="242" x="1920" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1719" gid="242" x="1920" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1691" gid="242" x="2112" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1712" gid="242" x="2112" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1692" gid="242" x="2048" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1710" gid="242" x="2048" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1685" gid="242" x="1920" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1716" gid="242" x="1920" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1686" gid="242" x="2112" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1713" gid="242" x="2112" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1693" gid="242" x="2048" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1711" gid="242" x="2048" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1652" gid="242" x="1984" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1718" gid="242" x="1984" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1690" gid="242" x="2176" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1714" gid="242" x="2176" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1684" gid="242" x="1984" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1717" gid="242" x="1984" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1687" gid="242" x="2176" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1715" gid="242" x="2176" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1658" gid="242" x="2240" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1689" gid="242" x="2240" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1683" gid="242" x="2240" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1688" gid="242" x="2240" y="512" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="768" gid="242" x="3456" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1728" gid="242" x="832" y="2048" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1782" gid="242" x="960" y="2048" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1751" gid="242" x="832" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1776" gid="242" x="960" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="769" gid="242" x="3520" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1727" gid="242" x="896" y="2048" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1783" gid="242" x="1024" y="2048" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1752" gid="242" x="896" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1777" gid="242" x="1024" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1633" gid="242" x="1792" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1709" gid="242" x="1792" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1639" gid="242" x="1856" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1708" gid="242" x="1856" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1682" gid="242" x="2112" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1703" gid="242" x="2112" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1645" gid="242" x="1920" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1707" gid="242" x="1920" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1681" gid="242" x="2176" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1704" gid="242" x="2176" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1651" gid="242" x="1984" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1706" gid="242" x="1984" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1680" gid="242" x="2240" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1657" gid="242" x="2048" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1705" gid="242" x="2048" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1679" gid="242" x="2304" y="576" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="770" gid="242" x="3456" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1725" gid="242" x="832" y="2112" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1780" gid="242" x="960" y="2112" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1746" gid="242" x="832" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1774" gid="242" x="960" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="771" gid="242" x="3520" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1724" gid="242" x="896" y="2112" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1781" gid="242" x="1024" y="2112" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1747" gid="242" x="896" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1775" gid="242" x="1024" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1632" gid="242" x="1792" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1702" gid="242" x="1792" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1678" gid="242" x="2112" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1696" gid="242" x="2112" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1638" gid="242" x="1856" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1701" gid="242" x="1856" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1677" gid="242" x="2176" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1697" gid="242" x="2176" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1644" gid="242" x="1920" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1700" gid="242" x="1920" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1676" gid="242" x="2240" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1650" gid="242" x="1984" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1699" gid="242" x="1984" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1675" gid="242" x="2304" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1656" gid="242" x="2048" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1698" gid="242" x="2048" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1674" gid="242" x="2368" y="640" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="772" gid="242" x="3392" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1726" gid="242" x="768" y="2048" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1753" gid="242" x="768" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="773" gid="242" x="3328" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1723" gid="242" x="704" y="2112" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1748" gid="242" x="704" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="774" gid="242" x="3392" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1722" gid="242" x="768" y="2112" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1749" gid="242" x="768" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="embercan,apexwing"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="775" gid="242" x="3328" y="1792" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="776" gid="242" x="3456" y="1792" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="777" gid="242" x="3520" y="1792" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1631" gid="242" x="3520" y="1792" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="778" gid="242" x="3456" y="1856" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="779" gid="242" x="3520" y="1856" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="780" gid="242" x="3392" y="1792" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="781" gid="242" x="3328" y="1856" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="782" gid="242" x="3392" y="1856" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="783" gid="242" x="3392" y="1920" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="784" gid="242" x="3456" y="1920" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="785" gid="242" x="3264" y="1920" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="786" gid="242" x="3328" y="1920" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="965" gid="242" x="3968" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="966" gid="242" x="4032" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="967" gid="242" x="3648" y="2112" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="968" gid="242" x="4096" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="969" gid="242" x="4160" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="970" gid="242" x="4224" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="971" gid="242" x="4096" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="972" gid="242" x="4160" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="973" gid="242" x="4224" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="974" gid="242" x="4096" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="975" gid="242" x="4160" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="976" gid="242" x="4224" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="977" gid="242" x="4096" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="978" gid="242" x="4160" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="979" gid="242" x="4224" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="983" gid="242" x="4288" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="984" gid="242" x="4352" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="985" gid="242" x="4416" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="986" gid="242" x="4288" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="987" gid="242" x="4352" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="988" gid="242" x="4416" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="989" gid="242" x="4288" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="990" gid="242" x="4352" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="991" gid="242" x="4416" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="992" gid="242" x="4480" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="993" gid="242" x="3968" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="994" gid="242" x="4032" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="995" gid="242" x="4480" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="996" gid="242" x="3968" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="997" gid="242" x="4032" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="998" gid="242" x="4480" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="999" gid="242" x="3968" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1000" gid="242" x="4032" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1001" gid="242" x="4288" y="2240" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1040" gid="242" x="3904" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1041" gid="242" x="3776" y="2112" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1042" gid="242" x="3840" y="2112" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1043" gid="242" x="3776" y="2176" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1044" gid="242" x="3840" y="2176" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1045" gid="242" x="3712" y="2112" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1046" gid="242" x="3712" y="2176" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1047" gid="242" x="3648" y="2176" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1048" gid="242" x="2944" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1049" gid="242" x="3072" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1050" gid="242" x="3136" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1051" gid="242" x="3072" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1052" gid="242" x="3136" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1053" gid="242" x="3008" y="2304" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1054" gid="242" x="3008" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1055" gid="242" x="2944" y="2368" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1056" gid="242" x="3072" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1057" gid="242" x="3136" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1058" gid="242" x="3008" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1059" gid="242" x="2944" y="2432" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1060" gid="242" x="3008" y="3328" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1061" gid="242" x="3072" y="3392" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1062" gid="242" x="3072" y="3264" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1063" gid="242" x="3136" y="3328" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1064" gid="242" x="3072" y="3328" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1065" gid="242" x="3136" y="3392" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1066" gid="242" x="3136" y="3456" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1067" gid="242" x="3200" y="3520" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1068" gid="242" x="3200" y="3392" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1069" gid="242" x="3264" y="3456" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1070" gid="242" x="3200" y="3456" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1071" gid="242" x="3264" y="3520" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1080" gid="242" x="3648" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1081" gid="242" x="3776" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1082" gid="242" x="3840" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1083" gid="242" x="3776" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1084" gid="242" x="3840" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1085" gid="242" x="3712" y="1600" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1086" gid="242" x="3712" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1087" gid="242" x="3648" y="1664" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1088" gid="242" x="3712" y="1536" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1089" gid="242" x="3776" y="1536" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1090" gid="242" x="3712" y="1472" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1091" gid="242" x="3776" y="1472" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1092" gid="242" x="4480" y="1856" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1093" gid="242" x="4544" y="1856" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1094" gid="242" x="4480" y="1920" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1095" gid="242" x="4544" y="1920" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1096" gid="242" x="4480" y="1984" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1097" gid="242" x="4544" y="1984" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1098" gid="242" x="4480" y="1792" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1099" gid="242" x="4544" y="1792" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1100" gid="242" x="4608" y="1856" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1101" gid="242" x="4608" y="1792" width="64" height="64">
    <properties>
     <property name="biome" value="forest"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="sagreen,araclaw"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1135" gid="244" x="3712" y="4352" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1136" gid="244" x="3776" y="4352" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1137" gid="244" x="3840" y="4352" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1138" gid="244" x="3904" y="4352" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1139" gid="244" x="3968" y="4352" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1140" gid="244" x="3968" y="4416" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1141" gid="244" x="3904" y="4416" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1142" gid="244" x="3840" y="4416" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1143" gid="244" x="3776" y="4416" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
    </properties>
   </object>
   <object id="1144" gid="244" x="3712" y="4416" width="64" height="64">
    <properties>
     <property name="biome" value="sand"/>
     <property name="level" type="int" value="10"/>
+<<<<<<< HEAD
     <property name="monsters" value="capiblu,jatyglow"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup id="2" name="Objects" visible="0">
+=======
+    <property name="monsters" value="Atrox,Pouch"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="Objects">
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
   <object id="1" gid="211" x="4352" y="3776" width="320" height="320"/>
   <object id="2" gid="226" x="3455.33" y="3783.33" width="128" height="192"/>
   <object id="3" gid="226" x="3264" y="3712" width="128" height="192"/>
@@ -4971,7 +6615,11 @@
   <object id="1078" gid="228" x="4623" y="2089" width="64" height="128"/>
   <object id="1079" gid="227" x="4678" y="2170" width="128" height="192"/>
  </objectgroup>
+<<<<<<< HEAD
  <objectgroup id="12" name="Collisions" visible="0">
+=======
+ <objectgroup id="12" name="Collisions">
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
   <object id="211" x="4832.33" y="1976.5" width="33.3333" height="647.5"/>
   <object id="700" x="4857" y="1952" width="67.5" height="22.5"/>
   <object id="701" x="4899" y="1203" width="25" height="744"/>
@@ -5148,7 +6796,11 @@
   <object id="1134" x="1616" y="2085.75" width="352" height="58.5"/>
   <object id="1531" x="475.758" y="-639.394"/>
  </objectgroup>
+<<<<<<< HEAD
  <objectgroup id="5" name="Transition" visible="0">
+=======
+ <objectgroup id="5" name="Transition">
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
   <object id="17" x="4421.09" y="3770.75" width="54.6667" height="3.83333">
    <properties>
     <property name="pos" value="world"/>
@@ -5180,7 +6832,11 @@
    </properties>
   </object>
  </objectgroup>
+<<<<<<< HEAD
  <objectgroup id="10" name="Water" visible="0">
+=======
+ <objectgroup id="10" name="Water">
+>>>>>>> a523129dec780edfb5ed75cc7c593e879848100e
   <object id="136" x="5.0303" y="5054.06" width="5504" height="320"/>
   <object id="161" x="3648" y="2496" width="192" height="192"/>
   <object id="162" x="3840" y="2560" width="512" height="128"/>
