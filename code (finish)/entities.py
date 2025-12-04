@@ -1,6 +1,6 @@
 from settings import * 
 from support import check_connections
-from timer import Timer
+from tempo import Tempo
 from random import choice
 from monster import Monster
 
@@ -70,8 +70,8 @@ class Character(Entity):
 		self.view_directions = character_data['directions']
 
 		self.timers = {
-			'look around': Timer(1500, autostart = True, repeat = True, func = self.random_view_direction),
-			'notice': Timer(500, func = self.start_move)
+			'look around': Tempo(1500, autostart = True, repeat = True, func = self.random_view_direction),
+			'notice': Tempo(500, func = self.start_move)
 		}
 		self.notice_sound = notice_sound
 
@@ -83,6 +83,10 @@ class Character(Entity):
 		return self.character_data['dialog'][f"{'defeated' if self.character_data['defeated'] else 'default'}"]
 
 	def raycast(self):
+    # --- VERIFICAÇÃO DE SEGURANÇA ---
+    # Se self.player não existe (é None), saia do método para evitar o erro.
+		if not self.player:
+			return
 		if check_connections(self.radius, self, self.player) and self.has_los() and not self.has_moved and not self.has_noticed:
 			self.player.block()
 			self.player.change_facing_direction(self.rect.center)

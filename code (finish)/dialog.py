@@ -1,5 +1,5 @@
 from settings import * 
-from timer import Timer
+from tempo import Tempo
 
 class DialogTree:
 	def __init__(self, character, player, all_sprites, font, end_dialog):
@@ -14,7 +14,7 @@ class DialogTree:
 		self.dialog_index = 0
 
 		self.current_dialog = DialogSprite(self.dialog[self.dialog_index], self.character, self.all_sprites, self.font)
-		self.dialog_timer = Timer(500, autostart = True)
+		self.dialog_timer = Tempo(500, autostart = True)
 
 	def input(self):
 		keys = pygame.key.get_just_pressed()

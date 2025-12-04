@@ -1,249 +1,249 @@
 TRAINER_DATA = {
-	'o1': {
-		'monsters': {0: ('Jacana', 14), 1: ('Cleaf', 15)},
+	'o1': { # Floresta (Forest) - Plantas/Fogo
+		'monsters': {0: ('sapling', 14), 1: ('embercan', 15)},
 		'dialog': {
-			'default': ['Hey, how are you?', 'Oh, so you want to fight?', 'FIGHT!'], 
-			'defeated': ['You are very strong!', 'Let\'s fight again sometime?']},
+			'default': ['Ei, como você está?', 'Oh, então você quer lutar?', 'LUTA!'],
+			'defeated': ['Você é muito forte!', 'Vamos lutar novamente alguma hora?']},
 		'directions': ['down'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'forest'
 		},
-	'o2': {
-		'monsters': {0: ('Atrox', 14), 1: ('Pouch', 15), 2: ('Draem', 13), 3: ('Cindrill', 13)},
+	'o2': { # Areia (Sand) - Água/Terra/Fogo
+		'monsters': {0: ('capiblu', 14), 1: ('embercan', 15), 2: ('earthshroud', 13), 3: ('sapling', 13)},
 		'dialog': {
-			'default': ['I don\'t like sand', 'It\'s coarse and rough', 'oh god, fight'], 
-			'defeated': ['May the force be with you']},
+			'default': ['Eu não gosto de areia', 'É áspera e grossa', 'oh Deus, lute'],
+			'defeated': ['Que a força esteja com você']},
 		'directions': ['left', 'down'],
 		'look_around': False,
 		'defeated': False,
 		'biome': 'sand'
 		},
-	'o3': {
-		'monsters': {0: ('Atrox', 14), 1: ('Pouch', 15), 2: ('Draem', 13), 3: ('Cindrill', 13)},
+	'o3': { # Areia (Sand) - Água/Terra/Fogo
+		'monsters': {0: ('blazewhelp', 14), 1: ('earthshroud', 15), 2: ('capiblu', 13), 3: ('sapling', 13)},
 		'dialog': {
-			'default': ['I love skating!', 'FIGHT!'], 
-			'defeated': ['Good luck with the boss', 'It\'s so cold in here']},
+			'default': ['Eu amo patinar!', 'LUTA!'],
+			'defeated': ['Boa sorte com o chefe', 'Está tão frio aqui']},
 		'directions': ['left', 'right', 'up', 'down'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'sand'
 		},
-	'o4': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
+	'o4': { # Floresta (Forest) - Evoluções
+		'monsters': {0: ('ignisblast', 25), 1: ('wardensawi', 20), 2: ('earthshroud', 24), 3: ('ararablair', 30)},
 		'dialog': {
-			'default': ['I love skating!', 'FIGHT!'], 
-			'defeated': ['Good luck with the boss', 'It\'s so cold in here']},
+			'default': ['Eu amo patinar!', 'LUTA!'],
+			'defeated': ['Boa sorte com o chefe', 'Está tão frio aqui']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'forest'
 		},
-	'o5': {
-		'monsters': {0: ('Plumette', 20), 1: ('Ivieron', 22), 2: ('Atrox',24), 3: ('Pouch', 19)},
+	'o5': { # Floresta (Forest) - Evoluções
+		'monsters': {0: ('ibyracy', 20), 1: ('carcalon', 22), 2: ('apexwing', 24), 3: ('earthshroud', 19)},
 		'dialog': {
-			'default': ['So you want to challenge the big ones', 'This will be fun!'], 
-			'defeated': ['I hope the lawyers will never spot you', '<3']},
+			'default': ['Então você quer desafiar os grandões', 'Isso será divertido!'],
+			'defeated': ['Espero que os advogados nunca te encontrem', '<3']},
 		'directions': ['up', 'right'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'forest'
 		},
-	'o6': {
-		'monsters': {0: ('Finsta', 15), 1: ('Finsta', 15), 2: ('Finsta', 15)},
+	'o6': { # Gelo (Ice) - Voador/Água
+		'monsters': {0: ('ibyracy', 15), 1: ('ibyracy', 15), 2: ('ibyracy', 15)},
 		'dialog': {
-			'default': ['I love skating!', 'FIGHT!'], 
-			'defeated': ['Good luck with the boss', 'It\'s so cold in here']},
+			'default': ['Eu amo patinar!', 'LUTA!'],
+			'defeated': ['Boa sorte com o chefe', 'Está tão frio aqui']},
 		'directions': ['down'],
 		'look_around': False,
 		'defeated': False,
 		'biome': 'ice'
 		},
-	'o7': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
+	'o7': { # Gelo (Ice) - Evoluções
+		'monsters': {0: ('ararablair', 25), 1: ('earthshroud', 20), 2: ('ignisblast', 24), 3: ('jatyglow', 30)},
 		'dialog': {
-			'default': ['There are no bugs in the snow!'], 
-			'defeated': ['Maybe I should check a vulcano...', 'It\'s so cold in here']},
+			'default': ['Não há insetos na neve!'],
+			'defeated': ['Talvez eu devesse verificar um vulcão...', 'Está tão frio aqui']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
 		'biome': 'ice'
 		},
-	'p1': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
+	'p1': { # Floresta (Forest)
+		'monsters': {0: ('primalsauim', 25), 1: ('earthshroud', 20), 2: ('ignisblast', 24), 3: ('ararablair', 30)},
 		'dialog': {
-			'default': ['I love trees', 'and fights'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Eu amo árvores', 'e lutas'],
+			'defeated': ['Boa sorte com o chefe!']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
 		'biome': 'forest'
 		},
-	'p2': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
+	'p2': { # Floresta (Forest)
+		'monsters': {0: ('primalsauim', 25), 1: ('earthshroud', 20), 2: ('ignisblast', 24), 3: ('ararablair', 30)},
 		'dialog': {
-			'default': ['I love trees', 'and fights'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Eu amo árvores', 'e lutas'],
+			'defeated': ['Boa sorte com o chefe!']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
 		'biome': 'forest'
 		},
-	'p3': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
+	'p3': { # Floresta (Forest)
+		'monsters': {0: ('primalsauim', 25), 1: ('earthshroud', 20), 2: ('ignisblast', 24), 3: ('ararablair', 30)},
 		'dialog': {
-			'default': ['I love trees', 'and fights'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Eu amo árvores', 'e lutas'],
+			'defeated': ['Boa sorte com o chefe!']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
 		'biome': 'forest'
 		},
-	'p4': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
+	'p4': { # Floresta (Forest)
+		'monsters': {0: ('primalsauim', 25), 1: ('earthshroud', 20), 2: ('ignisblast', 24), 3: ('ararablair', 30)},
 		'dialog': {
-			'default': ['I love trees', 'and fights'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Eu amo árvores', 'e lutas'],
+			'defeated': ['Boa sorte com o chefe!']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
 		'biome': 'forest'
 		},
-	'px': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Atrox',24), 3: ('Finiette', 30)},
+	'px': { # Floresta (Forest)
+		'monsters': {0: ('primalsauim', 25), 1: ('earthshroud', 20), 2: ('ignisblast', 24), 3: ('ararablair', 30)},
 		'dialog': {
-			'default': ['I love trees', 'and fights'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Eu amo árvores', 'e lutas'],
+			'defeated': ['Boa sorte com o chefe!']},
 		'directions': ['right'],
 		'look_around': False,
 		'defeated': False,
 		'biome': 'forest'
 		},
-	'w1': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
+	'w1': { # Gelo (Ice) - Evoluções
+		'monsters': {0: ('ararablair', 25), 1: ('earthshroud', 20), 2: ('primalsauim', 24), 3: ('ignisblast', 30)},
 		'dialog': {
-			'default': ['It\'s so cold in here', 'maybe a fight will warm me up'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Está tão frio aqui', 'talvez uma luta me esquente'],
+			'defeated': ['Boa sorte com o chefe!']},
 		'directions': ['left'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'ice'
 		},
-	'w2': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
+	'w2': { # Gelo (Ice)
+		'monsters': {0: ('ararablair', 25), 1: ('earthshroud', 20), 2: ('primalsauim', 24), 3: ('ignisblast', 30)},
 		'dialog': {
-			'default': ['It\'s so cold in here', 'maybe a fight will warm me up'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Está tão frio aqui', 'talvez uma luta me esquente'],
+			'defeated': ['Boa sorte com o chefe!']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'ice'
 		},
-	'w3': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
+	'w3': { # Gelo (Ice)
+		'monsters': {0: ('ararablair', 25), 1: ('earthshroud', 20), 2: ('primalsauim', 24), 3: ('ignisblast', 30)},
 		'dialog': {
-			'default': ['It\'s so cold in here', 'maybe a fight will warm me up'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Está tão frio aqui', 'talvez uma luta me esquente'],
+			'defeated': ['Boa sorte com o chefe!']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'ice'
 		},
-	'w4': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
+	'w4': { # Gelo (Ice)
+		'monsters': {0: ('ararablair', 25), 1: ('earthshroud', 20), 2: ('primalsauim', 24), 3: ('ignisblast', 30)},
 		'dialog': {
-			'default': ['It\'s so cold in here', 'maybe a fight will warm me up'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Está tão frio aqui', 'talvez uma luta me esquente'],
+			'defeated': ['Boa sorte com o chefe!']},
 		'directions': ['left'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'ice'
 		},
-	'w5': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
+	'w5': { # Gelo (Ice)
+		'monsters': {0: ('ararablair', 25), 1: ('earthshroud', 20), 2: ('primalsauim', 24), 3: ('ignisblast', 30)},
 		'dialog': {
-			'default': ['It\'s so cold in here', 'maybe a fight will warm me up'], 
-			'defeated': ['Good luck with the boss!']},
+			'default': ['Está tão frio aqui', 'talvez uma luta me esquente'],
+			'defeated': ['Boa sorte com o chefe!']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'ice'
 		},
-	'wx': {
-		'monsters': {0: ('Friolera', 25), 1: ('Gulfin', 20), 2: ('Draem',24), 3: ('Finiette', 30)},
+	'wx': { # Gelo (Ice) - Chefe
+		'monsters': {0: ('ararablair', 25), 1: ('earthshroud', 20), 2: ('primalsauim', 24), 3: ('ignisblast', 30)},
 		'dialog': {
-			'default': ['I hope you brought rations', 'This will be a long journey'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Espero que você tenha trazido rações', 'Esta será uma longa jornada'],
+			'defeated': ['Parabéns!']},
 		'directions': ['down'],
 		'look_around': False,
 		'defeated': False,
 		'biome': 'ice'
 		},
-	'f1': {
-		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
+	'f1': { # Areia (Sand) - Insetos/Fogo/Terra
+		'monsters': {0: ('jatyglow', 15), 1: ('embercan', 20), 2: ('earthshroud', 24), 3: ('blazewhelp', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Este lugar parece meio quente...', 'luta!'],
+			'defeated': ['Parabéns!']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'sand'
 		},
-	'f2': {
-		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
+	'f2': { # Areia (Sand)
+		'monsters': {0: ('jatyglow', 15), 1: ('embercan', 20), 2: ('earthshroud', 24), 3: ('blazewhelp', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Este lugar parece meio quente...', 'luta!'],
+			'defeated': ['Parabéns!']},
 		'directions': ['right', 'left'],
 		'look_around': False,
 		'defeated': False,
 		'biome': 'sand'
 		},
-	'f3': {
-		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
+	'f3': { # Areia (Sand)
+		'monsters': {0: ('jatyglow', 15), 1: ('embercan', 20), 2: ('earthshroud', 24), 3: ('blazewhelp', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Este lugar parece meio quente...', 'luta!'],
+			'defeated': ['Parabéns!']},
 		'directions': ['right', 'left'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'sand'
 		},
-	'f4': {
-		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
+	'f4': { # Areia (Sand)
+		'monsters': {0: ('jatyglow', 15), 1: ('embercan', 20), 2: ('earthshroud', 24), 3: ('blazewhelp', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Este lugar parece meio quente...', 'luta!'],
+			'defeated': ['Parabéns!']},
 		'directions': ['up', 'right'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'sand'
 		},
-	'f5': {
-		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
+	'f5': { # Areia (Sand)
+		'monsters': {0: ('jatyglow', 15), 1: ('embercan', 20), 2: ('earthshroud', 24), 3: ('blazewhelp', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Este lugar parece meio quente...', 'luta!'],
+			'defeated': ['Parabéns!']},
 		'directions': ['left'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'sand'
 		},
-	'f6': {
-		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
+	'f6': { # Areia (Sand)
+		'monsters': {0: ('jatyglow', 15), 1: ('embercan', 20), 2: ('earthshroud', 24), 3: ('blazewhelp', 30)},
 		'dialog': {
-			'default': ['This place feels kinda warm...', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Este lugar parece meio quente...', 'luta!'],
+			'defeated': ['Parabéns!']},
 		'directions': ['right'],
 		'look_around': True,
 		'defeated': False,
 		'biome': 'sand'
 		},
-	'fx': {
-		'monsters': {0: ('Cindrill', 15), 1: ('Jacana', 20), 2: ('Draem',24), 3: ('Atrox', 30)},
+	'fx': { # Areia (Sand) - Chefe
+		'monsters': {0: ('jatyglow', 15), 1: ('embercan', 20), 2: ('earthshroud', 24), 3: ('blazewhelp', 30)},
 		'dialog': {
-			'default': ['Time to bring the heat', 'fight!'], 
-			'defeated': ['Congratultion!']},
+			'default': ['Hora de trazer o calor', 'luta!'],
+			'defeated': ['Parabéns!']},
 		'directions': ['down'],
 		'look_around': False,
 		'defeated': False,
@@ -254,7 +254,7 @@ TRAINER_DATA = {
 		'radius': 0,
 		'look_around': False,
 		'dialog': {
-			'default': ['Welcome to the hospital', 'Your monsters have been healed'], 
+			'default': ['Bem-vindo ao hospital', 'Seus monstros foram curados'],
 			'defeated': None},
 		'directions': ['down'],
 		'defeated': False,
@@ -262,82 +262,134 @@ TRAINER_DATA = {
 		}
 }
 
+
 MONSTER_DATA = {
-	'Plumette': {
-		'stats': {'element': 'plant', 'max_health': 15, 'max_energy': 17, 'attack': 4, 'defense': 8, 'recovery': 1, 'speed': 1},
-		'abilities': {0: 'scratch', 5: 'spark'},
-		'evolve': ('Ivieron', 15)},
-	'Ivieron': {
-		'stats': {'element': 'plant', 'max_health': 18, 'max_energy': 20, 'attack': 5, 'defense': 10, 'recovery': 1.2, 'speed': 1.2},
-		'abilities': {0: 'scratch', 5: 'spark'},
-		'evolve': ('Pluma', 32)},
-	'Pluma': {
-		'stats': {'element': 'plant', 'max_health': 23, 'max_energy': 26, 'attack': 6, 'defense': 12, 'recovery': 1.8, 'speed': 1.8},
-		'abilities': {0: 'scratch', 5: 'spark'},
-		'evolve': None},
-	'Sparchu': {
-		'stats': {'element': 'fire', 'max_health': 15, 'max_energy': 7, 'attack': 3, 'defense': 8, 'recovery': 1.1, 'speed': 1},
-		'abilities': {0: 'scratch', 5: 'fire', 15: 'battlecry', 26:'explosion'},
-		'evolve': ('Cindrill', 15)},
-	'Cindrill': {
-		'stats': {'element': 'fire', 'max_health': 18, 'max_energy': 10, 'attack': 3.5, 'defense': 10, 'recovery': 1.2, 'speed': 1.1},
-		'abilities': {0: 'scratch', 5: 'fire', 15: 'battlecry', 26:'explosion'},
-		'evolve': ('Charmadillo', 33)},
-	'Charmadillo': {
-		'stats': {'element': 'fire', 'max_health': 29, 'max_energy': 12, 'attack': 4, 'defense': 17, 'recovery': 1.35, 'speed': 1.1},
-		'abilities': {0: 'scratch', 5: 'fire', 15: 'battlecry', 26:'explosion', 45: 'annihilate'},
-		'evolve': None},
-	'Finsta': {
-		'stats': {'element': 'water', 'max_health': 13, 'max_energy': 17, 'attack': 2, 'defense': 8, 'recovery': 1.5, 'speed': 1.8},
-		'abilities': {0: 'scratch', 5: 'spark', 15: 'splash', 20: 'ice', 25: 'heal'},
-		'evolve': ('Gulfin', 34)},
-	'Gulfin': {
-		'stats': {'element': 'water', 'max_health': 18, 'max_energy': 20, 'attack': 3, 'defense': 10, 'recovery': 1.8, 'speed': 2},
-		'abilities': {0: 'scratch', 5: 'spark', 15: 'splash', 20: 'ice', 25: 'heal'},
-		'evolve': ('Finiette', 45)},
-	'Finiette': {
-		'stats': {'element': 'water', 'max_health': 27, 'max_energy': 23, 'attack': 4, 'defense': 17, 'recovery': 2, 'speed': 2.5},
-		'abilities': {0: 'scratch', 5: 'spark', 15: 'splash', 20: 'ice', 25: 'heal'},
-		'evolve': None},
-	'Atrox': {
-		'stats': {'element': 'fire', 'max_health': 18, 'max_energy': 20, 'attack': 3, 'defense': 10, 'recovery': 1.3, 'speed': 1.9},
-		'abilities': {0: 'scratch', 5: 'spark', 30: 'fire'},
-		'evolve': None},
-	'Pouch': {
-		'stats': {'element': 'plant', 'max_health': 23, 'max_energy': 25, 'attack': 4, 'defense': 12, 'recovery': 1, 'speed': 1.5},
-		'abilities': {0: 'scratch', 5: 'spark', 25: 'heal'},
-		'evolve': None},
-	'Draem': {
-		'stats': {'element': 'plant', 'max_health': 23, 'max_energy': 25, 'attack': 4, 'defense': 12, 'recovery': 1.2, 'speed': 1.4},
-		'abilities': {0: 'scratch', 5: 'heal', 20: 'explosion', 25: 'splash'},
-		'evolve': None},
-	'Larvea': {
-		'stats': {'element': 'plant', 'max_health': 15, 'max_energy': 17, 'attack': 1, 'defense': 8, 'recovery': 1, 'speed': 1},
-		'abilities': {0: 'scratch', 5: 'spark'},
-		'evolve': ('Cleaf', 4)},
-	'Cleaf': {
-		'stats': {'element': 'plant', 'max_health': 18, 'max_energy': 20, 'attack': 3, 'defense': 10, 'recovery': 1.7, 'speed': 1.6},
-		'abilities': {0: 'scratch', 5: 'heal'},
-		'evolve': None},
-	'Jacana': {
-		'stats': {'element': 'fire', 'max_health': 12, 'max_energy': 19, 'attack': 3, 'defense': 10, 'recovery': 2.1, 'speed': 2.6},
-		'abilities': {0: 'scratch', 5: 'spark', 15: 'burn', 20: 'explosion', 25: 'heal'},
-		'evolve': None},
-	'Friolera': {
-		'stats': {'element': 'water', 'max_health': 13, 'max_energy': 20, 'attack': 4, 'defense': 6, 'recovery': 1.3, 'speed': 2},
-		'abilities': {0: 'scratch', 5: 'spark', 15: 'splash', 20: 'ice', 25: 'heal'},
-		'evolve': None},
+    # --- FOGO ---
+    'embercan': {
+        'stats': {'element': 'fire', 'max_health': 60, 'max_energy': 50, 'attack': 50, 'defense': 40, 'recovery': 1.0, 'speed': 60},
+        'abilities': {0: 'scratch', 5: 'burn'},  # Substituindo mordida/brasas
+        'exp': 60,
+        'graphic_path': 'graphics/monsters/embercan.png',
+        'evolve': 'blazewhelp'
+    },
+    'blazewhelp': {
+        'stats': {'element': 'fire', 'max_health': 100, 'max_energy': 70, 'attack': 80, 'defense': 60, 'recovery': 1.0, 'speed': 75},
+        'abilities': {0: 'spark', 5: 'fire'}, # Substituindo presanhas/lança_chamas
+        'exp': 140,
+        'graphic_path': 'graphics/monsters/blazewhelp.png',
+        'evolve': 'ignisblast'
+    },
+    'ignisblast': {
+        'stats': {'element': 'fire', 'max_health': 150, 'max_energy': 100, 'attack': 120, 'defense': 90, 'recovery': 1.0, 'speed': 70},
+        'abilities': {0: 'explosion', 5: 'annihilate'}, # Substituindo canhão_infernal/impacto
+        'exp': 250,
+        'graphic_path': 'graphics/monsters/ignisblast.png',
+        'evolve': None
+    },
+
+    # --- PLANTA ---
+    'sapling': {
+        'stats': {'element': 'grass', 'max_health': 70, 'max_energy': 60, 'attack': 45, 'defense': 50, 'recovery': 1.0, 'speed': 70},
+        'abilities': {0: 'scratch', 5: 'heal'}, # Substituindo tapa/folha_navalha
+        'exp': 60,
+        'graphic_path': 'graphics/monsters/sagreen.png',
+        'evolve': 'wardensawi'
+    },
+    'wardensawi': {
+        'stats': {'element': 'grass', 'max_health': 110, 'max_energy': 80, 'attack': 75, 'defense': 70, 'recovery': 1.0, 'speed': 85},
+        'abilities': {0: 'battlecry', 5: 'scratch'}, # Substituindo chicote/soco
+        'exp': 140,
+        'graphic_path': 'graphics/monsters/wardensawi.png',
+        'evolve': 'primalsauim'
+    },
+    'primalsauim': {
+        'stats': {'element': 'grass', 'max_health': 180, 'max_energy': 90, 'attack': 110, 'defense': 110, 'recovery': 1.0, 'speed': 60},
+        'abilities': {0: 'scratch', 5: 'annihilate'}, # Substituindo martelo/esmagar
+        'exp': 250,
+        'graphic_path': 'graphics/monsters/primalsauim.png',
+        'evolve': None
+    },
+
+    # --- ÁGUA / TERRA ---
+    'capiblu': {
+        'stats': {'element': 'water', 'max_health': 90, 'max_energy': 50, 'attack': 40, 'defense': 60, 'recovery': 1.0, 'speed': 40},
+        'abilities': {0: 'scratch', 5: 'splash'}, # Substituindo cabeçada/jato_dágua
+        'exp': 60,
+        'graphic_path': 'graphics/monsters/capiblu.png',
+        'evolve': 'earthshroud'
+    },
+    'earthshroud': {
+        'stats': {'element': 'water', 'max_health': 200, 'max_energy': 80, 'attack': 90, 'defense': 130, 'recovery': 1.0, 'speed': 30},
+        'abilities': {0: 'explosion', 5: 'splash'}, # Substituindo terremoto/hidro_bomba
+        'exp': 250,
+        'graphic_path': 'graphics/monsters/earthshroud.png',
+        'evolve': None
+    },
+
+    # --- VOADORES ---
+    'araclaw': {
+        'stats': {'element': 'flying', 'max_health': 50, 'max_energy': 50, 'attack': 60, 'defense': 30, 'recovery': 1.0, 'speed': 90},
+        'abilities': {0: 'scratch', 5: 'battlecry'}, # Substituindo bicada/ventania
+        'exp': 50,
+        'graphic_path': 'graphics/monsters/araclaw.png',
+        'evolve': 'araguara'
+    },
+    'araguara': {
+        'stats': {'element': 'flying', 'max_health': 120, 'max_energy': 90, 'attack': 95, 'defense': 60, 'recovery': 1.0, 'speed': 110},
+        'abilities': {0: 'scratch', 5: 'annihilate'}, # Substituindo ataque_asa/furacão
+        'exp': 180,
+        'graphic_path': 'graphics/monsters/araguara.png',
+        'evolve': 'ararablair'
+    },
+    'ararablair':{
+        'stats': {'element': 'flying', 'max_health': 200, 'max_energy': 130, 'attack': 95, 'defense': 60, 'recovery': 1.0, 'speed': 135},
+        'abilities': {0: 'scratch', 5: 'annihilate'}, # Substituindo ataque_asa/predador
+        'exp': 180,
+        'graphic_path': 'graphics/monsters/ararablair.png',
+        'evolve': None
+    },
+    
+    'ibyracy': {
+        'stats': {'element': 'flying', 'max_health': 130, 'max_energy': 80, 'attack': 110, 'defense': 70, 'recovery': 1.0, 'speed': 105},
+        'abilities': {0: 'scratch', 5: 'battlecry'}, # Substituindo garra/olhar
+        'exp': 55,
+        'graphic_path': 'graphics/monsters/ibyracy.png',
+        'evolve': None
+    },
+    'carcalon': {
+        'stats': {'element': 'flying', 'max_health': 90, 'max_energy': 70, 'attack': 90, 'defense': 55, 'recovery': 1.0, 'speed': 90},
+        'abilities': {0: 'scratch', 5: 'ice'}, # Substituindo rasante/bico_broca (usando 'ice' para representar dano genérico)
+        'exp': 120,
+        'graphic_path': 'graphics/monsters/carcalon.png',
+        'evolve': 'ibyracy'
+    },
+    'apexwing': {
+        'stats': {'element': 'flying', 'max_health': 60, 'max_energy': 60, 'attack': 70, 'defense': 40, 'recovery': 1.0, 'speed': 80},
+        'abilities': {0: 'scratch', 5: 'fire'}, # Substituindo rasante/garras (usando 'fire' para representar dano genérico)
+        'exp': 200,
+        'graphic_path': 'graphics/monsters/apexwing.png',
+        'evolve': 'carcalon'
+    },
+
+    # --- INSETOS ---
+    'jatyglow': {
+        'stats': {'element': 'bug', 'max_health': 80, 'max_energy': 80, 'attack': 80, 'defense': 60, 'recovery': 1.0, 'speed': 100},
+        'abilities': {0: 'scratch', 5: 'burn'}, # Substituindo ferrão/veneno
+        'exp': 150,
+        'graphic_path': 'graphics/monsters/jatyglow.png',
+        'evolve': ''
+    },
 }
 
 ATTACK_DATA = {
-	'burn':       {'target': 'opponent', 'amount': 2,    'cost': 15, 'element': 'fire',   'animation': 'fire'},
-	'heal':       {'target': 'player',   'amount': -1.2, 'cost': 600, 'element': 'plant',  'animation': 'green'},
-	'battlecry':  {'target': 'player',   'amount': -1.4, 'cost': 20, 'element': 'normal', 'animation': 'green'},
-	'spark':      {'target': 'opponent', 'amount': 1.1,  'cost': 20, 'element': 'fire',   'animation': 'fire'},
-	'scratch':    {'target': 'opponent', 'amount': 1.2,  'cost': 20, 'element': 'normal', 'animation': 'scratch'},
-	'splash':     {'target': 'opponent', 'amount': 2,    'cost': 15, 'element': 'water',  'animation': 'splash'},
-	'fire':       {'target': 'opponent', 'amount': 2,    'cost': 15, 'element': 'fire',   'animation': 'fire'},
-	'explosion':  {'target': 'opponent', 'amount': 2,    'cost': 90, 'element': 'fire',   'animation': 'explosion'},
-	'annihilate': {'target': 'opponent', 'amount': 3,    'cost': 30, 'element': 'fire',   'animation': 'explosion'},
-	'ice':        {'target': 'opponent', 'amount': 2,    'cost': 15, 'element': 'water',  'animation': 'ice'},
+    'burn': {'target': 'opponent', 'amount': 2, 'cost': 15, 'element': 'fire', 'animation': 'fire'},
+    'heal': {'target': 'player', 'amount': -1.2, 'cost': 60, 'element': 'plant', 'animation': 'green'},
+    'battlecry': {'target': 'player', 'amount': -1.4, 'cost': 20, 'element': 'normal', 'animation': 'green'},
+    'spark': {'target': 'opponent', 'amount': 1.1, 'cost': 20, 'element': 'fire', 'animation': 'fire'},
+    'scratch': {'target': 'opponent', 'amount': 1.2, 'cost': 20, 'element': 'normal', 'animation': 'scratch'},
+    'splash': {'target': 'opponent', 'amount': 2, 'cost': 15, 'element': 'water', 'animation': 'splash'},
+    'fire': {'target': 'opponent', 'amount': 2, 'cost': 15, 'element': 'fire', 'animation': 'fire'},
+    'explosion': {'target': 'opponent', 'amount': 2, 'cost': 90, 'element': 'fire', 'animation': 'explosion'},
+    'annihilate': {'target': 'opponent', 'amount': 3, 'cost': 30, 'element': 'fire', 'animation': 'explosion'},
+    'ice': {'target': 'opponent', 'amount': 2, 'cost': 15, 'element': 'water', 'animation': 'ice'},
 }

@@ -7,8 +7,8 @@ class AllSprites(pygame.sprite.Group):
 		super().__init__()
 		self.display_surface = pygame.display.get_surface()
 		self.offset = vector()
-		self.shadow_surf = import_image('..', 'graphics', 'other', 'shadow')
-		self.notice_surf = import_image('..', 'graphics', 'ui', 'notice')
+		self.shadow_surf = import_image('graphics', 'other', 'shadow')
+		self.notice_surf = import_image('graphics', 'ui', 'notice')
 
 	def draw(self, player):
 		self.offset.x = -(player.rect.centerx - WINDOW_WIDTH / 2)

@@ -10,11 +10,12 @@ from groups import AllSprites
 from dialog import DialogTree
 from monster_index import MonsterIndex
 from battle import Battle
-from timer import Timer
+from tempo import Tempo
 from evolution import Evolution
 
 from support import *
 from monster import Monster
+
 
 class Game:
 	# general 
@@ -23,24 +24,21 @@ class Game:
 		self.display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 		pygame.display.set_caption('Monster Hunter')
 		self.clock = pygame.time.Clock()
-		self.encounter_timer = Timer(2000, func = self.monster_encounter)
+		self.encounter_timer = Tempo(2000, func = self.monster_encounter)
 
 		# player monsters 
 		self.player_monsters = {
-			0: Monster('Ivieron', 32),
-			1: Monster('Atrox', 15),
-			2: Monster('Cindrill', 16),
-			3: Monster('Atrox', 10),
-			4: Monster('Sparchu', 11),
-			5: Monster('Gulfin', 9),
-			6: Monster('Jacana', 10),
+			0: Monster('embercan', 16),
+			1: Monster('capiblu', 15),
+			2: Monster('wardensawi', 18),
+		
 		}
 		for monster in self.player_monsters.values():
 			monster.xp += randint(0,monster.level * 100)
 		self.test_monsters = {
-			0: Monster('Finsta', 15),
-			1: Monster('Pouch', 13),
-			2: Monster('Larvea', 12),
+			0: Monster('jatyglow', 10),
+			1: Monster('apexwing', 13),
+			2: Monster('araclaw', 12),
 		}
 
 
@@ -60,6 +58,7 @@ class Game:
 		self.tint_speed = 600
 
 		self.import_assets()
+		self.player = None
 		self.setup(self.tmx_maps['world'], 'house')
 		self.audio['overworld'].play(-1)
 
@@ -72,32 +71,66 @@ class Game:
 
 
 	def import_assets(self):
-		self.tmx_maps = tmx_importer('..', 'data', 'maps')
+		self.tmx_maps = tmx_importer('data', 'maps')
+
 
 		self.overworld_frames = {
-			'water': import_folder('..', 'graphics', 'tilesets', 'water'),
-			'coast': coast_importer(24, 12, '..', 'graphics', 'tilesets', 'coast'),
-			'characters': all_character_import('..', 'graphics', 'characters')
+			'water': import_folder('graphics', 'tilesets', 'water'),
+			'coast': coast_importer(24, 12, 'graphics', 'tilesets', 'coast'),
+			'characters': all_character_import('graphics', 'characters')
 		}
 
 		self.monster_frames = {
-			'icons': import_folder_dict('..', 'graphics', 'icons'),
-			'monsters': monster_importer(4,2,'..', 'graphics', 'monsters'),
-			'ui': import_folder_dict('..', 'graphics', 'ui'),
-			'attacks': attack_importer('..', 'graphics', 'attacks')
+        'icons': import_folder_dict('graphics', 'monsters'),
+        'monsters': monster_importer(4, 2, 'graphics', 'monsters'),
+        'ui': import_folder_dict('graphics', 'ui'),
+        'attacks': attack_importer('graphics', 'attacks')
+    }
+
+		# --- INÍCIO DA CORREÇÃO ---
+		# 1. Carrega o dicionário de monstros brutos
+		raw_monsters = self.monster_frames['monsters']
+		
+		# 2. Cria um novo dicionário com chaves padronizadas (minúsculas e sem espaços)
+		standardized_monsters = {
+			name.strip().lower(): frames_data 
+			for name, frames_data in raw_monsters.items()
 		}
-		self.monster_frames['outlines'] = outline_creator(self.monster_frames['monsters'], 4)
+		
+		# 3. Substitui o dicionário original pelo padronizado
+		self.monster_frames['monsters'] = standardized_monsters
+		# --- FIM DA CORREÇÃO ---
+
+		self.icon_frames = {}
+
+		# Itera sobre cada monstro e seu dicionário de frames
+		for name, frames_dict in self.monster_frames['monsters'].items():
+		
+			# Usamos o primeiro valor (value) do frames_dict (que é a lista de frames, ex: [s1, s2])
+			
+			# Se você sabe que a chave é 'down' ou 'single' e corrigiu, use:
+			# frames_list = frames_dict['down'] 
+			
+			# Se você não tem certeza da chave de direção:
+			frames_list = list(frames_dict.values())[0]
+
+			# 2. O primeiro item da lista de frames é o nosso ícone estático.
+			static_icon = frames_list[0]
+			
+			# 3. Armazena no novo dicionário simples (nome do monstro: Superfície)
+			self.icon_frames[name] = static_icon
+
 
 		self.fonts = {
-			'dialog': pygame.font.Font(join('..', 'graphics', 'fonts', 'PixeloidSans.ttf'), 30),
-			'regular': pygame.font.Font(join('..', 'graphics', 'fonts', 'PixeloidSans.ttf'), 18),
-			'small': pygame.font.Font(join('..', 'graphics', 'fonts', 'PixeloidSans.ttf'), 14),
-			'bold': pygame.font.Font(join('..', 'graphics', 'fonts', 'dogicapixelbold.otf'), 20),
+			'dialog': pygame.font.Font(join('graphics', 'fonts', 'PixeloidSans.ttf'), 30),
+			'regular': pygame.font.Font(join('graphics', 'fonts', 'PixeloidSans.ttf'), 18),
+			'small': pygame.font.Font(join('graphics', 'fonts', 'PixeloidSans.ttf'), 14),
+			'bold': pygame.font.Font(join('graphics', 'fonts', 'dogicapixelbold.otf'), 20),
 		}
-		self.bg_frames = import_folder_dict('..', 'graphics', 'backgrounds')
-		self.start_animation_frames = import_folder('..', 'graphics', 'other', 'star animation')
+		self.bg_frames = import_folder_dict('graphics', 'backgrounds')
+		self.start_animation_frames = import_folder('graphics', 'other', 'star animation')
 	
-		self.audio = audio_importer('..', 'audio')
+		self.audio = audio_importer('audio')
 
 	def setup(self, tmx_map, player_start_pos):
 		# clear the map
@@ -319,6 +352,12 @@ class Game:
 			self.tint_screen(dt)
 			pygame.display.update()
 
+
+# ... (Todo o código da class Game fica igualzinho estava) ...
+
 if __name__ == '__main__':
+
+	# 3. RODA O JOGO (O evento principal)
+	# Quando o menu.run() terminar (der o break), o Python desce pra cá
 	game = Game()
 	game.run()

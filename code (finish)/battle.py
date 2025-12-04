@@ -3,7 +3,7 @@ from sprites import MonsterSprite, MonsterNameSprite, MonsterLevelSprite, Monste
 from groups import BattleSprites
 from game_data import ATTACK_DATA
 from support import draw_bar
-from timer import Timer
+from tempo import Tempo
 from random import choice
 
 class Battle:
@@ -22,7 +22,7 @@ class Battle:
 
 		# timers 
 		self.timers = {
-			'opponent delay': Timer(600, func = self.opponent_attack)
+			'opponent delay': Tempo(600, func = self.opponent_attack)
 		}
 
 		# groups
@@ -56,13 +56,35 @@ class Battle:
 
 	def create_monster(self, monster, index, pos_index, entity):
 		monster.paused = False
-		frames = self.monster_frames['monsters'][monster.name]
-		outline_frames = self.monster_frames['outlines'][monster.name]
+		
+		# 1. PADRONIZAÇÃO DA CHAVE
+		monster_key = monster.name.strip().lower()
+		
+		# 2. CARREGA TODOS OS DADOS DO MONSTRO
+		# Esta linha não deve causar erro se a padronização no main.py estiver correta
+		monster_data = self.monster_frames['monsters'][monster_key] 
+		
+		# 3. DEFINE OS FRAMES PRINCIPAIS
+		# A variável 'frames' é o dicionário de todos os estados (front, back, etc.)
+		# ATRIBUIÇÃO DE 'frames' AQUI:
+		frames = monster_data 
+		
+		# 4. DEFINE OS FRAMES DE OUTLINE (Com fallback)
+		if 'outlines' in monster_data:
+			outline_frames = monster_data['outlines']
+		else:
+			# Agora 'frames' está definido e pode ser usado para o fallback.
+			outline_frames = frames 
+			print(f"Aviso: Monstro '{monster_key}' não possui a chave 'outlines'. Usando frames normais.")
+			
+		
 		if entity == 'player':
 			pos = list(BATTLE_POSITIONS['left'].values())[pos_index]
 			groups = (self.battle_sprites, self.player_sprites)
-			frames = {state: [pygame.transform.flip(frame, True, False) for frame in frames] for state, frames in frames.items()}
-			outline_frames = {state: [pygame.transform.flip(frame, True, False) for frame in frames] for state, frames in outline_frames.items()}
+			
+			# O flip é aplicado nos dicionários de estado (frames e outline_frames)
+			frames = {state: [pygame.transform.flip(frame, True, False) for frame in frames_list] for state, frames_list in frames.items()}
+			outline_frames = {state: [pygame.transform.flip(frame, True, False) for frame in frames_list] for state, frames_list in outline_frames.items()}
 		else:
 			pos = list(BATTLE_POSITIONS['right'].values())[pos_index]
 			groups = (self.battle_sprites, self.opponent_sprites)
@@ -76,7 +98,7 @@ class Battle:
 		level_pos = name_sprite.rect.bottomleft if entity == 'player' else name_sprite.rect.bottomright 
 		MonsterLevelSprite(entity, level_pos, monster_sprite, self.battle_sprites, self.fonts['small'])
 		MonsterStatsSprite(monster_sprite.rect.midbottom + vector(0,20), monster_sprite, (150,48), self.battle_sprites, self.fonts['small'])
-
+  
 	def input(self):
 		if self.selection_mode and self.current_monster:
 			keys = pygame.key.get_just_pressed()

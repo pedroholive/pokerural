@@ -10,7 +10,7 @@ class MonsterIndex:
 		self.frame_index = 0
 
 		# frames 
-		self.icon_frames = monster_frames['icons']
+		self.icon_frames = monster_frames['monsters']
 		self.monster_frames = monster_frames['monsters']
 		self.ui_frames = monster_frames['ui']
 
@@ -74,7 +74,16 @@ class MonsterIndex:
 			text_surf = self.fonts['regular'].render(monster.name, False, text_color)
 			text_rect = text_surf.get_frect(midleft = item_rect.midleft + vector(90, 0))
 
-			icon_surf = self.icon_frames[monster.name]
+		
+			frames_dict = self.icon_frames[monster.name] 
+
+			# 1. Acesse o primeiro valor do dicionário (que deve ser uma lista de frames)
+			frames_list = list(frames_dict.values())[0]
+
+			# 2. Pegue o primeiro frame da lista
+			icon_surf = frames_list[0] 
+
+			# A linha 80 deve funcionar agora:
 			icon_rect = icon_surf.get_frect(center = item_rect.midleft + vector(45,0))
 
 			if item_rect.colliderect(self.main_rect):

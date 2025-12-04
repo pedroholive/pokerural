@@ -1,5 +1,5 @@
 from settings import * 
-from timer import Timer
+from tempo import Tempo
 
 class Evolution:
 	def __init__(self, frames, start_monster, end_monster, font, end_evolution, star_frames):
@@ -7,8 +7,8 @@ class Evolution:
 		self.start_monster_surf = pygame.transform.scale2x(frames[start_monster]['idle'][0])
 		self.end_monster_surf = pygame.transform.scale2x(frames[end_monster]['idle'][0])
 		self.timers = {
-			'start': Timer(800, autostart = True),
-			'end': Timer(1800, func = end_evolution)
+			'start': Tempo(800, autostart = True),
+			'end': Tempo(1800, func = end_evolution)
 		}
 
 		# star animation

@@ -9,6 +9,29 @@ def import_image(*path, alpha = True, format = 'png'):
 	surf = pygame.image.load(full_path).convert_alpha() if alpha else pygame.image.load(full_path).convert()
 	return surf
 
+def simple_icon_importer(folder_path):
+    """Carrega todas as imagens de ícones em uma pasta e as armazena em um dicionário."""
+    icon_frames = {}
+    
+    # Itera sobre os arquivos na pasta de ícones
+    for folder_name, sub_folders, file_names in walk(folder_path):
+        for file_name in file_names:
+            # Ignora arquivos que não são imagens (se necessário)
+            if file_name.endswith(('.png', '.jpg', '.jpeg')):
+                full_path = join(folder_name, file_name)
+                
+                # 1. Carrega a superfície da imagem
+                surf = pygame.image.load(full_path).convert_alpha()
+                
+                # 2. Cria a chave a partir do nome do arquivo, tudo em minúsculas
+                # Ex: Embercan.png -> 'embercan'
+                key_name = file_name.split('.')[0].lower()
+                
+                # 3. Armazena a superfície diretamente na chave
+                icon_frames[key_name] = surf
+                
+    return icon_frames
+
 def import_folder(*path):
 	frames = []
 	for folder_path, sub_folders, image_names in walk(join(*path)):

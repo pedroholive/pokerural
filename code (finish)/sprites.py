@@ -1,7 +1,7 @@
 from settings import * 
 from random import uniform
 from support import draw_bar
-from timer import Timer
+from tempo import Tempo
 
 # overworld sprites
 class Sprite(pygame.sprite.Sprite):
@@ -74,8 +74,8 @@ class MonsterSprite(pygame.sprite.Sprite):
 
 		# timers 
 		self.timers = {
-			'remove highlight': Timer(300, func = lambda: self.set_highlight(False)),
-			'kill': Timer(600, func = self.destroy)
+			'remove highlight': Tempo(300, func = lambda: self.set_highlight(False)),
+			'kill': Tempo(600, func = self.destroy)
 		}
 
 	def animate(self, dt):
@@ -223,7 +223,7 @@ class TimedSprite(Sprite):
 	def __init__(self, pos, surf, groups, duration):
 		super().__init__(pos, surf, groups, z = BATTLE_LAYERS['overlay'])
 		self.rect.center = pos
-		self.death_timer = Timer(duration, autostart = True, func = self.kill)
+		self.death_timer = Tempo(duration, autostart = True, func = self.kill)
 
 	def update(self, _):
 		self.death_timer.update()
